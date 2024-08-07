@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.table {
+			width: 100%;
+			margin-top: 20px;
+			border-collapse: collapse;
+		}
+		.table, .table th, .table td {
+			border: 1px solid black;
+		}
+		.table th, .table td {
+			padding: 10px;
+			text-align: left;
+		}
+		.delete {
+			background-color: red;
+			color: white;
+			border: none;
+			cursor: pointer;
+			padding: 5px 10px;
+		}
